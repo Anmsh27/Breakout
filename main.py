@@ -13,7 +13,7 @@ class Game():
 
         self.screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
         pygame.display.set_caption("Breakout")
-        icon = pygame.image.load('breakout-room.ico').convert_alpha()
+        icon = pygame.image.load('icon.ico').convert_alpha()
         pygame.display.set_icon(icon)
         self.clock = pygame.time.Clock()
 
